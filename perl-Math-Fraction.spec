@@ -1,10 +1,16 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+			# some tests fail - check it
+#
 %include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fraction perl module
 Summary(pl):	Modu³ perla Math::Fraction
 Name:		perl-Math-Fraction
 Version:	53b
 Release:	7
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/Fraction-v.%{version}.tar.gz
 # Source0-md5:	add8995db001a2af6b50d3ff66f4c335
@@ -26,6 +32,8 @@ Math::Fraction umo¿liwia operacje na u³amkach.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT

@@ -22,7 +22,7 @@ Math::Fraction umo¿liwia operacje na u³amkach.
 %setup -q -n Fraction-v.%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

@@ -25,7 +25,7 @@ Math-Fraction umo¿liwia operacje na u³amkach.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT

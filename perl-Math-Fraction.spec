@@ -8,7 +8,7 @@ Summary:	Math::Fraction perl module
 Summary(pl):	Modu³ perla Math::Fraction
 Name:		perl-Math-Fraction
 Version:	53b
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-			# some tests fail - check it
+			# fail - module needs an update to modern perl...
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fraction perl module

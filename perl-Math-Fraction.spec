@@ -24,7 +24,7 @@ Math::Fraction umo¿liwia operacje na u³amkach.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

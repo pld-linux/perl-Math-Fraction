@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fraction perl module
-Summary(pl):	Modu≥ perla Math::Fraction
+Summary(pl.UTF-8):   Modu≈Ç perla Math::Fraction
 Name:		perl-Math-Fraction
 Version:	53b
 Release:	8
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Math::Fraction allows to manipulate exact fractions.
 
-%description -l pl
-Math::Fraction umoøliwia operacje na u≥amkach.
+%description -l pl.UTF-8
+Math::Fraction umo≈ºliwia operacje na u≈Çamkach.
 
 %prep
 %setup -q -n Fraction-v.%{version}

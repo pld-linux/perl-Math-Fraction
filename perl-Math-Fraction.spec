@@ -5,7 +5,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fraction perl module
-Summary(pl.UTF-8):   Moduł perla Math::Fraction
+Summary(pl.UTF-8):	Moduł perla Math::Fraction
 Name:		perl-Math-Fraction
 Version:	53b
 Release:	8

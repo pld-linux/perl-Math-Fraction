@@ -5,7 +5,6 @@
 
 %define		pdir	Math
 %define		pnam	Fraction
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fraction perl module
 Summary(pl.UTF-8):	Moduł perla Math::Fraction
 Name:		perl-Math-Fraction
